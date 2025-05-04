@@ -1,0 +1,120 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+
+h1 {
+  color: black;           
+  font-size: 100px;          
+  font-weight: bold;        
+  text-align: center;       
+  margin-top: 40px;         
+  font-family: 'Georgia', serif; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, black, darkred);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 42px;
+  border-style:dotted;
+  transition: all 0.3s ease;
+}
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: black;           
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, black, darkred);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.contact-box {
+    background-color: #8B0000;
+    color: whitesmoke;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    line-height: 1.6;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact-box p {
+    margin: 15px 0;
+}
+
+.contact-box strong {
+    color: #FFD700; /* Gold color */
+    width: 120px;
+    display: inline-block;
+}
+
+.contact-box p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-box p:hover {
+    background-color: #3e0b0b;
+    transform: scale(1.03);
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+p a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+p a:hover {
+  color: #ffd700; 
+  transform: scale(1.05); 
+  text-decoration: underline;
+}
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+a:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
